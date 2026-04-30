@@ -20,7 +20,7 @@ console.log(calcAverageCalories([
   { day: "friday", calories: 3450 },
   { day: "saturday", calories: 3280 },
   { day: "sunday", calories: 3300 }
-])); 
+])); // 3180
 
 console.log(calcAverageCalories([
   { day: "monday", calories: 2040 },
@@ -30,6 +30,6 @@ console.log(calcAverageCalories([
   { day: "friday", calories: 2370 },
   { day: "saturday", calories: 2280 },
   { day: "sunday", calories: 2610 }
-])); 
+])); // 2270
 
-console.log(calcAverageCalories([])); 
+console.log(calcAverageCalories([])); // 0
